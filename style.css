@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(76, 69, 61);
+}
+
+/* Styles for Homepage  */
+
+.container {
+    background-color: rgb(197, 175, 153);
+    width: 30rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+   
+    height: 80vh;
+}
+
+.recipe{
+    list-style:none ;
+    width: 20rem;
+    margin-bottom: 1rem;
+    padding: 0.4rem;
+    border-radius: 2rem;
+    background-color: rgb(100, 94, 94);
+}
+
+.container h1 {
+    background-color: rgb(75, 72, 72);
+    color: whitesmoke;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.recipe a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.recipe a:hover {
+    color: rgb(233, 157, 157);
+}
+
+
+/* Styles for Recipe Pages  */
+
+.container-two {
+    background-color: rgb(197, 175, 153);
+    width: 50rem;
+    margin: 1rem auto;
+    padding: 1.4rem;
+    border-radius: 1rem;
+}
+
+.container-two img {
+    border: 0.3rem solid rgb(75, 72, 72);
+    border-radius: 1rem;
+    width: 50%;
+}
+
+.container-two h1, h2 {
+
+    background-color: rgb(75, 72, 72);
+    color: whitesmoke;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.container-two a {
+
+    background-color: rgb(36, 36, 36);
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0.7rem;
+    border-radius: 2rem;
+}
+
+.container-two a:hover {
+
+    background-color: whitesmoke;
+    color: rgb(36, 36, 36);;
+}
